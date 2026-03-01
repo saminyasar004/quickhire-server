@@ -2,6 +2,7 @@ import { ApiProperty } from '@nestjs/swagger';
 import {
   IsEmail,
   IsNotEmpty,
+  IsOptional,
   IsString,
   IsUrl,
   IsUUID,
@@ -57,7 +58,7 @@ export class CreateJobDto {
     example: 'logo.png',
     required: false,
   })
-  @IsString()
+  @IsOptional()
   logo?: string;
 }
 
