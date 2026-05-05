@@ -76,3 +76,14 @@ QuickHire is a modern job board application built with Next.js, Nest.js, TypeScr
 - `DELETE /api/jobs/:id`: Delete a job (Admin).
 - `POST /api/applications`: Submit application.
 - `GET /api/applications/job/:jobId`: Get applications for a job (Admin).
+
+## Test Credentials
+
+To test the application, you can use the following pre-seeded accounts:
+
+- **Admin Account**:
+  - Email: `admin@quickhire.com`
+  - Password: `admin123`
+- **User Account**:
+  - Email: `user@example.com`
+  - Password: `user123`
